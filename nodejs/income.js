@@ -70,8 +70,9 @@ fs.createReadStream('成本清單.csv').pipe(csv()).on('data', function (oneItem
         console.log( 'Please type "nodejs [Income CSV File Path] ..."' );
         return
     }
-
-    incomeFilename = process.argv[2];
+    else {
+        incomeFilename = process.argv[2];
+    }
 
     fs.createReadStream(incomeFilename).pipe(iconv.decodeStream('big5')).pipe(csv()).on('data', function (oneOrder) {
         if ( oneOrder['訂單編號'] != '' ){
