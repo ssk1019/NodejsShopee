@@ -65,15 +65,16 @@ fs.createReadStream('成本清單.csv').pipe(csv()).on('data', function (oneItem
 }).on('end', function() {
     //console.log(itemCostList);
 
-    var incomeFilename = 'fafafa1019.shopee-order.20181101-20181130.csv';
+    var incomeFilename = './IncomeData/fafafa1019.shopee-order.20181101-20181130.csv';
     if (process.argv.length < 3) {
         console.log( 'Please type "nodejs [Income CSV File Path] ..."' );
-        return
+        //return
     }
     else {
         incomeFilename = process.argv[2];
     }
 
+    console.log( 'Read CSV File = ' + incomeFilename );
     fs.createReadStream(incomeFilename).pipe(iconv.decodeStream('big5')).pipe(csv()).on('data', function (oneOrder) {
         if ( oneOrder['訂單編號'] != '' ){
             var orderPrice = parseInt(oneOrder['訂單小計 (TWD)']);
