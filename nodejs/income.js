@@ -13,8 +13,10 @@ var fs = require('fs');
 var csv = require('csv-parser');
 var iconv = require('iconv-lite');
 
-var exgRMBtoTWD = 4.6;      // RMB 兌換 TWD
-var itemWeightCost = 90;    // 單一品項重量運費成本 Kg/TWD
+var exgRMBtoTWD = 4.6;          // RMB 兌換 TWD
+var itemWeightCost = 90;        // 單一品項重量運費成本 Kg/TWD
+var shopeeHandlingFee = 0.0149; // 蝦皮成交手續費
+//var shopeeHandlingFee = 0.005; // 蝦皮成交手續費
 
 var getBetweenString = function( strSource, keywordS, keywordE ) {
     var idxS = strSource.indexOf( keywordS );
@@ -30,7 +32,9 @@ var allInfo = {
     itemSale:{},            // 商品銷售統計
     totalFreeTransCnt:0,    // 免運訂單數量()
     totalItemSaleCnt:0,     // 商品銷售總數量
+    totalHandlingFee:0,     // 總手續費
     buyerList:{},           // 紀錄買家清單, 統計不重複買家數
+    dateList:{},            // 日期清單
 };
 
 var itemCostList = {};
@@ -65,7 +69,7 @@ fs.createReadStream('成本清單.csv').pipe(csv()).on('data', function (oneItem
 }).on('end', function() {
     //console.log(itemCostList);
 
-    var incomeFilename = './IncomeData/fafafa1019.shopee-order.20181101-20181130.csv';
+    var incomeFilename = './IncomeData/fafafa1019.shopee-order.20181201-20181216.csv';
     if (process.argv.length < 3) {
         console.log( 'Please type "nodejs [Income CSV File Path] ..."' );
         //return
@@ -83,6 +87,8 @@ fs.createReadStream('成本清單.csv').pipe(csv()).on('data', function (oneItem
             var payType = oneOrder['付款方式'];
             var shippingType = oneOrder['寄送方式'];
             var buyerAccount = oneOrder['買家帳號'];
+            var orderDateObj = new Date(oneOrder['訂單成立時間']);
+            var orderDate = orderDateObj.getFullYear() + '/' + orderDateObj.getMonth() + '/' + orderDateObj.getDate()
 
             var profit = 0;                         // 本訂單獲利
             var handlingFeeShopee = 0.0;            // 蝦皮收取的手續費
@@ -116,7 +122,7 @@ fs.createReadStream('成本清單.csv').pipe(csv()).on('data', function (oneItem
                         console.log('Error: itemId:%s cost=%d is not a number!', itemId, itemCost);
                     }
                     grossProfit = ( itemPrice - itemCost ) * itemQty;
-                    handlingFeeShopee += ( itemPrice * 0.005 );
+                    handlingFeeShopee += ( itemPrice * shopeeHandlingFee );
                     profit += grossProfit;
 
                     // 統計各商品銷售數
@@ -134,8 +140,10 @@ fs.createReadStream('成本清單.csv').pipe(csv()).on('data', function (oneItem
                 }
             }
             allInfo['totalOrder'] += 1;
+            allInfo['dateList'][orderDate] = orderDateObj;
             allInfo['totalProfit'] += ( profit - Math.round(handlingFeeShopee) - Math.round(handlingFeeCreditCard) - (60-shippingFee) );
-            allInfo['totalIncome'] += ( orderPrice - Math.round(handlingFeeShopee) - Math.round(handlingFeeCreditCard) - (60-shippingFee) );
+            allInfo['totalIncome'] += ( orderPrice /*- Math.round(handlingFeeShopee) - Math.round(handlingFeeCreditCard)*/ - (60-shippingFee) );
+            allInfo['totalHandlingFee'] += handlingFeeShopee;
             if ( orderPrice >= FREE_TRANS_AMOUNT )
             {
                 allInfo['totalFreeTransCnt'] += 1;
@@ -149,16 +157,23 @@ fs.createReadStream('成本清單.csv').pipe(csv()).on('data', function (oneItem
             //console.log('--------------------', allInfo['totalProfit'], orderIncome, oneOrder['買家帳號'], oneOrder['訂單成立時間'], oneOrder['訂單完成時間'])
         }
     }).on('end', function() {
-        console.log( "總訂單:%d", allInfo['totalOrder'] );
+        var orderDate = new Date(Object.keys(allInfo['dateList'])[0]);  // 取得本月
+        orderDate.setDate(0);   // 設定為本月最後一天
+        var curMonthDays = orderDate.getDate();    // 取得本月天數
+
+        console.log( "總訂單數:%d", allInfo['totalOrder'], " 統計天數:", Object.keys(allInfo['dateList']).length + '/' + curMonthDays );
         console.log( "不重複買家數:%d", Object.keys(allInfo['buyerList']).length );
+        console.log( "總毛利:%d, 毛利率:%d", allInfo['totalProfit'].toFixed(4), (allInfo['totalProfit'] / allInfo['totalIncome'] * 100).toFixed(4),
+                     " 單日平均:", (allInfo['totalProfit'] / Object.keys(allInfo['dateList']).length).toFixed(2), " 預估本月:", ((allInfo['totalProfit'] / Object.keys(allInfo['dateList']).length) * curMonthDays).toFixed(2) );
+        console.log( "總營收:%d", allInfo['totalIncome'], " 平均單日:", (allInfo['totalIncome']/ Object.keys(allInfo['dateList']).length).toFixed(4), " 預估本月:", (allInfo['totalIncome']/ Object.keys(allInfo['dateList']).length * curMonthDays).toFixed(2) );
+        console.log( "總手續費:", allInfo['totalHandlingFee'].toFixed(4) );
+        console.log( "符合免運訂單數:", allInfo['totalFreeTransCnt'], " 總金額:", allInfo['totalFreeTransCnt'] * 30 );
+        console.log( "銷售商品總數:", allInfo['totalItemSaleCnt'], " 平均訂單購買商品數:", (allInfo['totalItemSaleCnt'] / allInfo['totalOrder']).toFixed(4), "平均每訂單金額:", (allInfo['totalIncome']/allInfo['totalOrder']).toFixed(4));
         console.log( "購買超過 1 次以上的買家:" );
         for( var key in allInfo['buyerList']) {
-            if ( allInfo['buyerList'][key] > 1 )    {   console.log( "     ", key, allInfo['buyerList'][key] );  }
+            if ( allInfo['buyerList'][key] > 1 )    {   console.log( "     買家帳號:", key, "  購買次數:", allInfo['buyerList'][key] );  }
         }
-        console.log( "總淨利:%d, 毛利率:%d", allInfo['totalProfit'], (allInfo['totalProfit'] / allInfo['totalIncome'] * 100) );
-        console.log( "總營收:%d", allInfo['totalIncome'] );
-        console.log( "符合免運訂單數:", allInfo['totalFreeTransCnt'], allInfo['totalFreeTransCnt'] * 30 );
-        console.log( "銷售商品總數:", allInfo['totalItemSaleCnt'], " 平均訂單購買商品數:", allInfo['totalItemSaleCnt'] / allInfo['totalOrder']);
+
         console.log( "銷售統計:" /*, JSON.stringify(allInfo['itemSale'], null, 4)*/ );
 
         var arr = [];
