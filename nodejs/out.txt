@@ -1,262 +1,249 @@
-Read CSV File = IncomeData\fafafa1019.shopee-order.20190101-20190131.csv
-總訂單數:727  統計天數: 31/NaN
-不重複買家數:704
-總毛利:74252, 毛利率:44.8772  單日平均: 2395.23  預估本月: NaN
-總營收:165456  平均單日: 5337.2903  預估本月: NaN
-總手續費: 2160.8874
-符合免運訂單數: 32  總金額: 960
-銷售商品總數: 1342  平均訂單購買商品數: 1.8459 平均每訂單金額: 227.5873
+Read CSV File = IncomeData\fafafa1019.shopee-order.20190201-20190228.csv
+總訂單數:662  統計天數: 24/31
+不重複買家數:648
+總毛利:72868, 毛利率:43.8982  單日平均: 3036.17  預估本月: 94121.17
+總營收:165993  平均單日: 6916.3750  預估本月: 214407.63
+總手續費: 2190.8662
+符合免運訂單數: 44  總金額: 1320
+銷售商品總數: 1198  平均訂單購買商品數: 1.8097 平均每訂單金額: 250.7447
 購買超過 1 次以上的買家:
-     買家帳號: mjchenq   購買次數: 2
-     買家帳號: qwe70170195   購買次數: 2
-     買家帳號: jimmychen0726   購買次數: 2
-     買家帳號: zm9995   購買次數: 2
-     買家帳號: a_bei   購買次數: 2
-     買家帳號: bobo5932lin   購買次數: 2
-     買家帳號: a5768b   購買次數: 3
-     買家帳號: shashagolo   購買次數: 2
-     買家帳號: prettying   購買次數: 2
-     買家帳號: nicholas0521   購買次數: 2
-     買家帳號: shihyu1016   購買次數: 2
-     買家帳號: jasonlin1113   購買次數: 2
-     買家帳號: liguangyao   購買次數: 2
-     買家帳號: love870712   購買次數: 2
-     買家帳號: joycesweet87162   購買次數: 2
-     買家帳號: flora0626   購買次數: 2
-     買家帳號: riclin999   購買次數: 2
-     買家帳號: zxc3719   購買次數: 2
-     買家帳號: jianr941207   購買次數: 3
-     買家帳號: azsx147tw   購買次數: 2
-     買家帳號: inno0780   購買次數: 2
+     買家帳號: katrinawang   購買次數: 2
+     買家帳號: cloudoud   購買次數: 2
+     買家帳號: zone0   購買次數: 2
+     買家帳號: milky20   購買次數: 2
+     買家帳號: l852502   購買次數: 2
+     買家帳號: yih0328   購買次數: 3
+     買家帳號: cot91228   購買次數: 2
+     買家帳號: olivia0978   購買次數: 2
+     買家帳號: jss0516   購買次數: 2
+     買家帳號: ocean17489   購買次數: 2
+     買家帳號: jianr941207   購買次數: 2
+     買家帳號: s890983   購買次數: 2
+     買家帳號: aa156   購買次數: 2
 銷售統計:
-CC-0001-KLX       278   Baseus倍思 蘋果apple Lightning藝紋快速充電線 2A iPhone傳輸線 防纏繞 結實耐折 數位玩咖
-     1.8M黑色 27
-     1.8M藏青色 30
-     1.8M?色 24
-     1.2M藏青色 22
-     1.2M黑色 45
-     0.6M黑色 12
-     0.6M藏青色 18
-     1.8M咖啡色 9
-     1.2M?色 33
-     3.0M?色 7
-     3.0M藏青色 12
-     1.2M咖啡色 12
-     0.6M?色 10
-     3.0M黑色 10
-     3.0M咖啡色 7
-PC-0003-CKU       186   iPhone X/XR/Xs Max手機殼iPhone7 保護殼ix/i6/i7/i8/plus磁吸車載指環扣支架
-     i7plus/i8plus黑殼-玫瑰金環 9
-     i7plus/i8plus黑殼-紅色環 13
-     iPhone7/8黑殼-黑色環 26
-     i7plus/i8plus黑殼-黑色環 47
-     iphoneX/Xs黑殼-黑色環 7
-     iPhone7/8黑殼-紅色環 8
-     i7plus/i8plus藍殼-藍色環 7
-     iPhoneXR黑殼-黑色環 23
-     iPhoneXsMax黑殼-黑色環 12
-     iPhone7/8黑殼-玫瑰金色環 3
-     iPhone7/8藍殼-藍色環 3
-     iPhone7/8黑殼-藍色環 7
-     i7plus/i8plus黑殼-藍色環 13
-     iphoneX/Xs黑殼-藍色環 2
-     iphoneX/Xs黑殼-紅色環 2
-     iphoneX/Xs藍殼-藍色環 2
-     iphoneX/Xs黑殼-玫瑰金色環 2
-PCW-0001-USAMS    121   USAMS優勝仕 漂浮式 氣囊防水袋 手機密封袋 潛水6寸手機防水包 手機袋 手機防水套 iPhone7 Plus手機殼
-     黑色 50
-     粉色 30
-     藍色 41
-PHC-0008-BASEUS    83   Baseus/倍思 吸盤式重力車載支架 手機導航車載支架多角度旋轉 車用支架 手機支架 手機架汽車
-     黑紅 26
-     全黑 35
-     黑銀 22
-PC-0018-LEU        66   iPhone X/XR/XS MAX手機殼 手機殼 電鍍TPU 保護殼ix/i7/i8/plus磁吸車載指環扣支架
-     7plus/8plus-紅色 10
-     iPhoneXR-藍色 3
-     iPhone7/8-紅色 6
-     iPhoneXR-紅色 11
-     7plus/8plus-金色 6
-     iPhoneXsMax-黑色 3
-     iPhoneXsMax-紅色 3
-     iPhoneXR-金色 1
-     7plus/8plus-藍色 2
-     iPhoneXR-黑色 5
-     iPhoneX(s)-紅色 2
-     7plus/8plus-黑色 7
-     iPhoneX(s)-黑色 4
-     iPhoneX(s)-金色 1
-     iPhoneXsMax-金色 1
-     iPhone7/8-黑色 1
-PHC-0001-KLX       66   Baseus倍思 重力感應車用支架 手機支架 冷氣口 手機支架 車架 手機車架 出風口 汽車支架 手機導航車架 數位玩咖
-     黑色 51
+CC-0001-KLX       246   Baseus倍思 蘋果apple Lightning藝紋快速充電線 2A iPhone傳輸線 防纏繞 結實耐折 數位玩咖
+     1.2M藏青色 23
+     1.8M黑色 34
+     1.8M藏青色 28
+     3.0M藏青色 16
+     1.8M?色 22
+     3.0M?色 13
+     1.8M咖啡色 7
+     3.0M咖啡色 5
+     0.6M藏青色 12
+     1.2M?色 12
+     0.6M黑色 22
+     1.2M黑色 31
+     1.2M咖啡色 4
+     3.0M黑色 14
+     0.6M?色 3
+PHC-0008-BASEUS   167   Baseus/倍思 吸盤式重力車載支架 手機導航車載支架多角度旋轉 車用支架 手機支架 手機架汽車
+     黑紅 84
+     全黑 83
+PC-0003-CKU       114   iPhone X/XR/Xs Max手機殼iPhone7 保護殼ix/i6/i7/i8/plus磁吸車載指環扣支架
+     iPhoneXR黑殼-黑色環 20
+     iPhoneXsMax黑殼-黑色環 6
+     iphoneX/Xs黑殼-紅色環 4
+     i7plus/i8plus黑殼-藍色環 8
+     iPhone7/8黑殼-黑色環 16
+     iphoneX/Xs黑殼-黑色環 15
+     i7plus/i8plus黑殼-黑色環 21
+     iphoneX/Xs黑殼-玫瑰金色環 3
+     i7plus/i8plus黑殼-紅色環 7
+     i7plus/i8plus藍殼-藍色環 5
+     i7plus/i8plus黑殼-玫瑰金環 3
+     iPhone7/8黑殼-玫瑰金色環 2
+     iPhone7/8黑殼-藍色環 1
+     iphoneX/Xs藍殼-藍色環 1
+     iPhone7/8黑殼-紅色環 1
+     iPhone7/8藍殼-藍色環 1
+PHC-0005-BASEUS    83   BASEUS/倍思 汽車後座車載支架 卡扣式手機平板鋁合金伸縮支架 車用 手機架 車用支架 手機支架 【數位玩咖】
+     黑色 55
+     紅黑 19
+     白色 9
+PHC-0001-KLX       76   Baseus倍思 重力感應車用支架 手機支架 冷氣口 手機支架 車架 手機車架 出風口 汽車支架 手機導航車架 數位玩咖
+     黑色 57
      銀色 8
-     金色 1
-     紅色 6
-PHC-0009-BASEUS    65   Baseus倍思 重力感應車用支架 手機支架 冷氣口 手機支架 車架 手機車架 出風口 汽車支架 手機導航車架 數位玩咖
-     黑色 39
-     銀色 11
-     紅色 7
-     灰色 8
-PC-0003-CKU-1      60   手機殼iPhone6 iPhone6s手機殼 iPhone6plus保護殼ix/i6/i6s/plus磁吸車載指環扣支架
+     紅色 8
+     金色 3
+PC-0018-LEU        50   iPhone X/XR/XS MAX手機殼 手機殼 電鍍TPU 保護殼ix/i7/i8/plus磁吸車載指環扣支架
+     iPhoneXsMax-紅色 2
+     iPhoneX(s)-金色 3
+     7plus/8plus-黑色 9
+     iPhone7/8-藍色 4
+     iPhone7/8-紅色 3
+     iPhoneXR-黑色 2
+     7plus/8plus-藍色 5
+     7plus/8plus-紅色 6
+     iPhoneXR-藍色 3
+     iPhoneXR-紅色 2
+     iPhoneXR-金色 3
+     iPhone7/8-黑色 2
+     iPhoneXsMax-金色 1
+     iPhoneX(s)-紅色 1
+     iPhoneX(s)-黑色 3
+     iPhoneX(s)-藍色 1
+PCW-0001-USAMS     45   USAMS優勝仕 漂浮式 氣囊防水袋 手機密封袋 潛水6寸手機防水包 手機袋 手機防水套 iPhone7 Plus手機殼
+     藍色 33
+     黑色 7
+     粉色 5
+PC-0003-CKU-1      41   手機殼iPhone6 iPhone6s手機殼 iPhone6plus保護殼ix/i6/i6s/plus磁吸車載指環扣支架
+     i6(s)Plus藍色-藍色環 2
+     i6(s)Plus黑色-玫瑰金色環 3
+     i6(s)Plus黑色-黑色環 17
+     i6(s)黑色-玫瑰金色環 4
      i6(s)黑色-紅色環 2
-     i6(s)黑色-玫瑰金色環 7
-     i6(s)Plus黑色-黑色環 18
-     i6(s)黑色-黑色環 11
-     i6(s)Plus黑色-紅色環 6
-     i6(s)藍色-藍色環 2
-     i6(s)Plus藍色-藍色環 6
-     i6(s)Plus黑色-玫瑰金色環 5
-     i6(s)Plus黑色-藍色環 1
-     i6(s)黑色-藍色環 2
-PHC-0014(15)-LF    59   儀表板卡扣式 HUD直視式汽車儀表台通用導航手機支架 車載支架 車用手機支架 車用支架 手機支架 手機架汽車
-     空心夾-黑色 59
-PHC-0005-BASEUS    58   BASEUS/倍思 汽車後座車載支架 卡扣式手機平板鋁合金伸縮支架 車用 手機架 車用支架 手機支架 【數位玩咖】
-     黑色 35
-     白色 6
-     紅黑 17
-PC-0007-LEU        47   iPhone手機殼四角防摔空壓殼TPU氣囊防摔XsMax/XR/i7/i8/i8plus/i7plus氣墊空壓殼 水晶盾
-     iPhone7Plus/8Plus透明 17
-     iPhone 7/8-透明 9
-     iPhone 7/8-透明黑色 2
-     iPhone6(s)-透明 3
-     6.1吋 iPhoneXR-透明 1
-     iPhone6(s)Plus-透明 4
-     6.5吋 iPhoneXsMax-透明 3
+     i6(s)藍色-藍色環 1
+     i6(s)黑色-黑色環 6
+     i6(s)Plus黑色-藍色環 2
+     i6(s)黑色-藍色環 1
+     i6(s)Plus黑色-紅色環 3
+PHC-0009-BASEUS    38   Baseus倍思 重力感應車用支架 手機支架 冷氣口 手機支架 車架 手機車架 出風口 汽車支架 手機導航車架 數位玩咖
+     黑色 22
+     紅色 6
+     灰色 4
+     銀色 6
+HPC-0001-CKU       38   Airpods 高質感 防摔 矽膠 耳機套 保護套 蘋果 AIRPODS 藍牙耳機 Air Pods
+     運動升級款-黑色 9
+     運動升級款-夜光款 2
+     運動升級款-紅色 2
+     簡約款-黑色 7
+     簡約款-藏青色 2
+     運動升級款-粉色 2
+     運動升級款-藏青色 5
+     簡約款-白色 1
+     簡約款-粉色 5
+     簡約款-紅色 1
+     運動升級款-天藍 1
+     簡約款-夜光款 1
+PHC-0014(15)-LF    34   儀表板卡扣式 HUD直視式汽車儀表台通用導航手機支架 車載支架 車用手機支架 車用支架 手機支架 手機架汽車
+     空心夾-黑色 34
+RB-0002-DOITMY     25   萌系列 電鍍磁吸支架 金屬指環扣 平板手機指環支架 指環背扣 可360度旋轉指環扣吸磁 手機支架
+     黑色 8
+     玫瑰金 8
+     金色 1
+     銀色 8
+CR-0005-BASEUS     22   Baseus倍思 Y型雙USB 點菸器擴充口車充 點煙器 車用充電器 3.4A快充 手機充電 平板充電
+     黑色 21
+     白色 1
+PC-0007-LEU        21   iPhone手機殼四角防摔空壓殼TPU氣囊防摔XsMax/XR/i7/i8/i8plus/i7plus氣墊空壓殼 水晶盾
+     iPhone7Plus/8Plus透明 7
+     iPhone 7/8-透明 2
+     6.1吋 iPhoneXR-透明 2
+     iPhone6(s)Plus-透明 2
+     iPhone7Plus/8Plus黑色 3
      iPhoneX-透明金色 1
-     iPhoneX-透明 5
-     iPhone7Plus/8Plus粉色 1
-     iPhone 7/8-透明金色 1
-PC-0019-MARHOOK    30   iPhone手機殼 鋼化玻璃殼 保護殼 max/ix/xr/xs/i7/i8/i8plus/i7plus手機套
-     iPhone-7/8 Plus 5.5吋 8
-     iPhone-XR 6.1吋 10
-     iPhone-XsMax 6.5吋 4
-     iPhone-X/Xs 5.8吋 6
-     iPhone-7/8 4.7吋 2
-PHC-0002-TRN       28   圓形車載支架 磁吸汽車出風口手機支架 磁性車用導航手機座通用型
-     名稱:圓形車載支架 磁吸汽車出風口手機支架 磁性車用導航手機座通用型 28
-PC-0020-MARHOOK    18   iPhone手機殼四角防摔空壓殼TPU氣囊防摔XsMax/XR/i7/i8/i8plus/i7plus氣墊空壓殼 鏡面
-     iPhone-XsMax 6.5吋 粉 1
-     iPhone-7/8 4.7吋 粉 1
-     iPhone-7/8Plus5.5吋 黑 4
-     iPhone-7/8Plus5.5吋 粉 2
+     iPhone7Plus/8Plus金色 2
+     iPhoneX-透明黑色 1
+     iPhone 7/8-透明黑色 1
+PHC-0006-BASEUS    17   BASEUS/倍思 直視式導航支架 汽車儀表台360°大嘴車載手機支架 手機架汽車【數位玩咖】
+     黑色 17
+PC-0020-MARHOOK    16   iPhone手機殼四角防摔空壓殼TPU氣囊防摔XsMax/XR/i7/i8/i8plus/i7plus氣墊空壓殼 鏡面
+     iPhone-7/8Plus5.5吋 銀 2
+     iPhone-7/8Plus5.5吋 粉 1
+     iPhone-XR 6.1吋 銀 3
+     iPhone-XR 6.1吋 粉 1
+     iPhone-7/8 4.7吋 黑 2
+     iPhone-7/8 4.7吋 銀 1
+     iPhone-7/8 4.7吋 粉 2
+     iPhone-7/8 4.7吋 金 1
      iPhone-X/XS 5.8吋 銀 1
      iPhone-X/XS 5.8吋 粉 1
-     iPhone-7/8 4.7吋 銀 1
-     iPhone-XsMax 6.5吋 銀 2
-     iPhone-XR 6.1吋 銀 1
-     iPhone-XsMax 6.5吋 金 1
-     iPhone-7/8Plus5.5吋 金 2
-     iPhone-7/8Plus5.5吋 銀 1
-HPC-0001-CKU       17   Airpods 高質感 防摔 矽膠 耳機套 保護套 蘋果 AIRPODS 藍牙耳機 Air Pods
-     運動升級款-藏青色 1
-     運動升級款-夜光款 2
-     簡約款-黑色 1
-     運動升級款-黑色 7
-     簡約款-紅色 1
-     簡約款-橙色 1
-     簡約款-粉色 2
-     簡約款-藏青色 1
-     簡約款-綠色 1
-PHC-0006-BASEUS    15   BASEUS/倍思 直視式導航支架 汽車儀表台360°大嘴車載手機支架 手機架汽車【數位玩咖】
-     黑色 15
-CC-0005-BASEUS     10   倍思 簡捷 二合一便攜款數據線 iPhone/安卓多功能 lightning/micro usb充電線 快充 23CM
-     金色-23cm 5
-     黑色-23cm 4
-     銀色-23cm 1
-LT-0002-BASEUS      9   Baseus倍思 充電線 數據線防纏繞整理收納線夾 十字豆莢數據線理線夾 迷你 線夾 集線器 固線器 集線夾 束線夾
+     iPhone-7/8Plus5.5吋 黑 1
+PC-0019-MARHOOK    16   iPhone手機殼 鋼化玻璃殼 保護殼 max/ix/xr/xs/i7/i8/i8plus/i7plus手機套
+     iPhone-XR 6.1吋 4
+     iPhone-X/Xs 5.8吋 7
+     iPhone-7/8 Plus 5.5吋 3
+     iPhone-7/8 4.7吋 1
+     iPhone-XsMax 6.5吋 1
+CC-0006-BASEUS     14   倍思 蘋果安卓type-c三原色一拖三數據線 3.5A快充魚絲編織充電線 【數位玩咖】
+     30cm 4
+     1.2m 10
+RB-0004-DOITMY     12   圓形多功能指環支架 金屬指環扣 平板手機指環支架 指環背扣 可360度旋轉指環扣吸磁 手機支架
      黑色 5
-     紅色 2
-     橡木色 2
-CR-0005-BASEUS      8   Baseus倍思 Y型雙USB 點菸器擴充口車充 點煙器 車用充電器 3.4A快充 手機充電 平板充電
-     黑色 8
-RB-0004-DOITMY      8   圓形多功能指環支架 金屬指環扣 平板手機指環支架 指環背扣 可360度旋轉指環扣吸磁 手機支架
-     黑色 6
+     粉色 3
+     藍色 2
      紫色 2
-PC-0009-LKS         8   iPhoneX手機殼iPhone7Plus鋼化玻璃殼LIKGUS保護殼ix/i7/i8/i8plus/i7plus手機套
-     iPhone-7Plus/8Plus紅色 1
-     iPhone 7/8黑色 1
-     iPhoneX 白色 2
-     iPhone7Plus/8Plus紅黑色 2
-     iPhoneX 黑色 1
-     iPhone 7/8紅色 1
-CC-0002-KLX         7   Vissko維斯克 安卓/蘋果二合一Lightning快速充電線 2A Android iPhone傳輸線 兩用
-     1.0M?色 4
-     1.0M藍色 1
+PHC-0002-TRN       11   圓形車載支架 磁吸汽車出風口手機支架 磁性車用導航手機座通用型
+     名稱:圓形車載支架 磁吸汽車出風口手機支架 磁性車用導航手機座通用型 11
+CR-0006-ROCK       10   ROCK 充電頭 USB 適用於手機通用款充電器方糖系列 可折疊多口迷你旅行充電器 豆腐頭
+     雙口-黑色 5
+     四口-黑色 4
+     單口-黑色 1
+PC-0005-KLX         9   iPhoneX手機殼iPhone8 iPhone7Plus倍思BV編織套保護殼ixi7i8i8plusi7plus手機套
+     iPhoneX/XS-黑色 2
+     iPhone-7Plus/8Plus藍色 1
+     iPhoneX/XS-紅色 1
+     iPhone-7Plus/8Plus黑色 2
+     iPhone 7/8-黑色 1
+     iPhone-7Plus/8Plus紅色 2
+CC-0002-KLX         8   Vissko維斯克 安卓/蘋果二合一Lightning快速充電線 2A Android iPhone傳輸線 兩用
      1.0M黑色 2
-PHD-0001-LFZ        7   熱銷ipad 金屬材質手機平板支架 懶人桌面手機支架平板電腦金屬支架 鋁合金支架 【數位玩咖】
-     銀色 2
-     黑色 2
-     玫瑰金 3
-CR-0002-VISSKO      7   vissko 智能數顯充電器 3.4a多口手機旅行快充 3c充電頭 跨境新款 【數位玩咖】
-     黑色 3
-     白色 4
-PHC-0007-BASEUS     7   Baseus倍思 小耳朵立貼式系列支架磁吸360度旋轉車載手機支架 手機架 車用支架 吸磁桌面支架 【數位玩咖】
+     1.0M藍色 3
+     1.0M?色 3
+PHC-0004-LFZ        7   直視式導航支架 汽車儀表台 儀表板支架 磁吸支架 手機支架 車用 手機架 車用支架 懶人支架 手機架汽車
+     圓形 5
+     方形 2
+CC-0005-BASEUS      7   倍思 簡捷 二合一便攜款數據線 iPhone/安卓多功能 lightning/micro usb充電線 快充 23CM
+     銀色-23cm 3
+     黑色-23cm 4
+CC-0008-KLX         7   安卓/蘋果/type-c三合一充電線 micro usb/lightning/type-c圓形伸縮拉手機數據線
+     粉色 5
+     藍色 2
+LT-0002-BASEUS      7   Baseus倍思 充電線 (非磁吸)數據線防纏繞整理收納線夾 十字豆莢理線夾 迷你 線夾 集線器 固線器 集線夾 束線夾
      黑色 6
-     銀色 1
-RB-0002-DOITMY      6   萌系列 電鍍磁吸支架 金屬指環扣 平板手機指環支架 指環背扣 可360度旋轉指環扣吸磁 手機支架
-     黑色 2
-     銀色 2
-     玫瑰金 2
+     紅色 1
 PHD-0002-SEENDA     6   網紅直播支架 桌面手機支架 直播神器 直播手機架 看片神器 懶人支架 車用手機架 吸盤式 自拍 手機座 手機 支撐架
      玫瑰金 5
      土豪金 1
-RB-0001-CKU         6   C-KU 磁吸支架 金屬指環扣 平板手機指環支架 指環背扣 可360度旋轉指環扣吸磁 手機支架
-     紅色 3
-     粉色 1
-     藍色 2
-PC-0010-LKS         6   iPhoneX手機殼iPhone7Plus透明矽膠LIKGUS保護殼ix/i7/i8/i8p/i7p手機套全包邊
-     iPhone 7Plus/8Plus藍色 2
-     iPhone 7Plus/8Plus紅色 2
-     iPhone 7/8黑色 2
+PHC-0007-BASEUS     6   Baseus倍思 小耳朵立貼式系列支架磁吸360度旋轉車載手機支架 手機架 車用支架 吸磁桌面支架 【數位玩咖】
+     黑色 5
+     銀色 1
 RB-0003-DOITMY      5   手機指環支架 平板手機指環支架 指環背扣 可360度旋轉指環扣吸磁 手機支架
-     黑色 2
+     黑色 1
+     藍色 1
      紅色 1
      粉色 1
-     藍色 1
-PC-0005-KLX         4   iPhoneX手機殼iPhone8 iPhone7Plus倍思BV編織套保護殼ixi7i8i8plusi7plus手機套
-     iPhone-7Plus/8Plus黑色 2
-     iPhone-7Plus/8Plus藍色 1
-     iPhone-7Plus/8Plus紅色 1
-CR-0001-ROCK        4   適用於手機車載充電器2.4A雙USB 思?Plus鋁合金迷你車充充電器 【數位玩咖】
-     藍色 4
-CC-0006-BASEUS      4   倍思 蘋果安卓type-c三原色一拖三數據線 3.5A快充魚絲編織充電線 【數位玩咖】
-     1.2m 4
-CR-0006-ROCK        4   ROCK 充電頭 USB 適用於手機通用款充電器方糖系列 可折疊多口迷你旅行充電器 豆腐頭
-     單口-黑色 1
-     雙口-黑色 2
-     四口-黑色 1
-LT-0001-HOCO        3   HOCO/浩酷 PH14 創意迷你磁吸理線器 手機數據線防纏繞整理收納夾 【數位玩咖】
-     紅色 3
-PHC-0004-LFZ        3   直視式導航支架 汽車儀表台 儀表板支架 磁吸支架 手機支架 車用 手機架 車用支架 懶人支架 手機架汽車
-     方形 2
-     圓形 1
-PC-0001-MHK         3   iPhoneX手機殼iPhone8 iPhone7電鍍TPU保護殼ix/i7/i8/i8plus/i7plus全包邊
-     iPhone 7/8 Plus 透明金邊 1
-     iPhone 7/8 Plus 透明粉邊 1
-     iPhone 7/8 Plus 透明紅邊 1
-PC-0002-MHK         3   iPhoneX手機殼iPhone8 iPhone7鋼化玻璃殼 保護殼 ix/i7/i8/i8plus/i7plus全包邊
-     iPhone7/8-白色 2
-     iPhoneX-黑色 1
-CR-0004-BASEUS      2   Baseus/倍思 創享系列2.4A手機充電器 雙USb折疊中規旅行充電器
-     紅色 2
-PC-0008-LEU         2   iPhone8手機殼iPhone7手機殼 氣囊防摔 空壓殼 電鍍TPU保護殼i7/i8/i8plus/i7plus手機套
-     i7plus/i8plus-金色 2
-CR-0003-HOCO        2   HOCO/浩酷 C30靈浩雙口折疊充電器 適用於蘋果手機快充充電頭2.4A
-     名稱:HOCO/浩酷 C30靈浩雙口折疊充電器 適用於蘋果手機快充充電頭2.4A 2
-PC-0011-LKS         2   iPhoneX手機殼 鋼化玻璃殼LIKGUS正品 三合一 PC 電鍍 保護殼 ix手機套 全包邊??現貨??【數位玩咖】
-     iPhoneX 粉色 2
-PC-0006-LEU         2   iPhoneX手機殼 四角防摔 空壓殼 TPU 氣囊防摔 ix手機套 透明氣墊空壓殼 水晶盾 全包邊
-     iPhoneX-透明 2
-CC-0007-ROCK        2   ROCK洛克 手機充電線 蘋果安卓一拖三 lightning+micro usb+type-c多功能快充數據線 1.2M
-     玫瑰金1.2m 2
-BS-0001-KLX         1   ipad iphone5s iPhone 6s iphone7 iphone8 手機專用指紋按鍵貼Home鍵貼
-     黑色黑邊 1
-PHC-0011-USAMS      1   優勝仕 卡扣式 車用支架 手機支架 冷氣口 手機支架 車架 手機車架 出風口 汽車支架 手機導航車架 可橫向 數位玩咖
-     黑色 1
+     紫色 1
+BS-0001-KLX         5   ipad iphone5s iPhone 6s iphone7 iphone8 手機專用指紋按鍵貼Home鍵貼
+     白色銀邊 1
+     黑色黑邊 2
+     白色玫瑰金邊 1
+     白色金邊 1
+CR-0003-HOCO        5   HOCO/浩酷 C30靈浩雙口折疊充電器 適用於蘋果手機快充充電頭2.4A
+     名稱:HOCO/浩酷 C30靈浩雙口折疊充電器 適用於蘋果手機快充充電頭2.4A 5
+PHD-0001-LFZ        4   熱銷ipad 金屬材質手機平板支架 懶人桌面手機支架平板電腦金屬支架 鋁合金支架 【數位玩咖】
+     金色 1
+     銀色 3
+PHC-0012-ROCK       3   ROCK車載出風口卡扣式磁吸支架汽車儀表台黏貼式手機支架
+     黑色 3
+PC-0009-LKS         3   iPhoneX手機殼iPhone7Plus鋼化玻璃殼LIKGUS保護殼ix/i7/i8/i8plus/i7plus手機套
+     iPhoneX-紅黑色 1
+     iPhone-7Plus/8Plus粉色 1
+     iPhone 7/8黑色 1
+RB-0001-CKU         3   C-KU 磁吸支架 金屬指環扣 平板手機指環支架 指環背扣 可360度旋轉指環扣吸磁 手機支架
+     土豪金 1
+     藍色 2
+PHC-0016-HOCO       3   HOCO浩酷 吸盤式車載支架 手機導航車載支架多角度旋轉 車用支架 手機支架 手機架汽車
+     藍白色 1
+     灰白色 2
+CR-0002-VISSKO      3   vissko 智能數顯充電器 3.4a多口手機旅行快充 3c充電頭 跨境新款 【數位玩咖】
+     黑色 2
+     白色 1
+PC-0002-MHK         2   iPhoneX手機殼iPhone8 iPhone7鋼化玻璃殼 保護殼 ix/i7/i8/i8plus/i7plus全包邊
+     iPhoneX-白色 1
+     iPhone7/8-白色 1
+PC-0010-LKS         2   iPhoneX手機殼iPhone7Plus透明矽膠LIKGUS保護殼ix/i7/i8/i8p/i7p手機套全包邊
+     iPhone 7Plus/8Plus紅色 1
+     iPhone 7Plus/8Plus白色 1
+PC-0004-CKU         2   iPhoneX手機殼 指環支架 手機殼 指環吸磁 TPU 保護殼 ix手機套 磁吸 磨砂 軟殼 車載指環扣 全包邊
+     iPhoneX-粉色 1
+     iPhoneX-藍色 1
+CC-0010-BASEUS      2   Baseus/倍思 L40 type-c音頻轉接頭 充電聽歌type-c接口轉接頭 (非蘋果用)
+     黑色 2
 CC-0004-VISSKO      1   vissko 5A快充Type-C數據線 充電線 華為/樂視線 鍍金接頭 速豹1m 【數位玩咖】
      黑白色-1.0M 1
-CC-0010-BASEUS      1   Baseus/倍思 L40 type-c音頻轉接頭 充電聽歌type-c接口轉接頭 (非蘋果用)
-     銀黑色 1
-PC-0004-CKU         1   iPhoneX手機殼 指環支架 手機殼 指環吸磁 TPU 保護殼 ix手機套 磁吸 磨砂 軟殼 車載指環扣 全包邊
-     iPhoneX-粉色 1
+PHC-0011-USAMS      1   優勝仕 卡扣式 車用支架 手機支架 冷氣口 手機支架 車架 手機車架 出風口 汽車支架 手機導航車架 可橫向 數位玩咖
+     黑色 1
+CC-0009-USAMS       1   優勝仕US-SJ212 AU02 90°彎頭Type-C公轉 3.5mm+Type-C母轉接頭 (非蘋果用)【數位玩咖】
+     黑色 1
